@@ -1,0 +1,150 @@
+:root {
+    --color-secondary: #7A838B;
+    --color-secondary-100: #C6CDDA;
+    --color-secondary-200: #E4DFD5;
+    --color-secondary-300: #EFF5F5;
+    --color-secondary-400: #626262;
+    --color-secondary-500: #A7A7A7;
+    --color-secondary-600: #5B5B5B;
+    --color-secondary-700: #6E6659;
+    --color-secondary-800: #264E58;
+    --color-secondary-900: #000000;
+    --color-secondary-1010: #bfbfbf;
+
+    --color-primary: #283F75;
+    --color-primary-100: #FFFFFF;
+    --color-primary-200: #C7E8FF;
+    --color-primary-300: #262424;
+    --color-primary-400: #35A1F5;
+    --color-primary-500: #158FED;
+    --color-primary-600: #283F75;
+    --color-primary-700: #0072D0;
+    --color-primary-800: #0065BA;
+    --color-primary-900: #0059A1;
+
+    --color-success: #27BB4E;
+    --color-success-100: #E7FBEC;
+    --color-success-200: #CAF9D3;
+    --color-success-300: #A4F2B3;
+    --color-success-400: #53D971;
+    --color-success-500: #39CB5C;
+    --color-success-600: #27BB4E;
+    --color-success-700: #1FAB45;
+    --color-success-800: #1A963C;
+    --color-success-900: #087A28;
+
+    --color-danger: #FF5A60;
+    --color-danger-100: #FFF3F4;
+    --color-danger-200: #FFDEDF;
+    --color-danger-300: #FFC0C2;
+    --color-danger-400: #FF9B9E;
+    --color-danger-500: #FF777C;
+    --color-danger-600: #EB7979;
+    --color-danger-700: #A32018;
+    --color-danger-800: #E31F2C;
+    --color-danger-900: #C81A26;
+
+    --color-warning: #FFA612;
+    --color-warning-100: #FFF8D6;
+    --color-warning-200: #FFEA8F;
+    --color-warning-300: #FFDC5D;
+    --color-warning-400: #E0CD1C;
+    --color-warning-500: #FFBC1D;
+    --color-warning-600: #F9A620;
+    --color-warning-700: #F9930E;
+    --color-warning-800: #F47F0C;
+    --color-warning-900: #E8690A;
+
+    --color-mint: #3EB489;
+    --color-mint-100: #ECF8F3;
+    --color-mint-200: #D8F0E7;
+    --color-mint-300: #B2E1D0;
+    --color-mint-400: #8BD2B8;
+    --color-mint-500: #65C3A1;
+    --color-mint-600: #3EB489;
+    --color-mint-700: #38A27B;
+    --color-mint-800: #2B7E60;
+    --color-mint-900: #1F5A45;
+
+    --color-magenta: #FF66FF;
+    --color-magenta-100: #FFE6FF;
+    --color-magenta-200: #FFCCFF;
+    --color-magenta-300: #FFB3FF;
+    --color-magenta-400: #FF99FF;
+    --color-magenta-500: #FF80FF;
+    --color-magenta-600: #FF66FF;
+    --color-magenta-700: #FF00FF;
+    --color-magenta-800: #CC00CC;
+    --color-magenta-900: #990099;
+
+    --shadow-w-s: 0px 4px 16px rgba(199, 206, 213, 0.5);
+    --shadow-w-s-hover: 0px 4px 16px rgba(199, 206, 213, 0.75);
+    
+    --shadow-w-m: 0px 4px 24px 8px rgb(186 186 186);
+    --shadow-w-m-hover: 0px 8px 24px 8px rgb(135 135 135 / 75%);
+    
+    --shadow-w-l: 0px 4px 32px 16px #E6E9ED;
+    --shadow-w-l-hover: 0px 16px 32px 16px rgba(199, 206, 213, 0.5);
+
+
+    --shadow-d-s: 0px 4px 16px rgba(0, 0, 0, 0.5);
+    --shadow-d-s-hover: 0px 4px 16px rgba(0, 0, 0, 0.75);
+    
+    --shadow-d-m: 0px 4px 24px rgba(0, 0, 0, 0.75);
+    --shadow-d-m-hover: 0px 8px 24px 8px rgba(0, 0, 0, 0.5);
+    
+    --shadow-d-l: 0px 4px 32px 16px rgba(0, 0, 0, 0.25);
+    --shadow-d-l-hover: 0px 8px 32px 16px rgba(0, 0, 0, 0.5);
+
+    --border-radius-x1:  4px;
+    --border-radius-x15: 6px;
+    --border-radius-x2:  8px;
+    --border-radius-x25: 12px;
+    --border-radius-x3:  16px;
+    --border-radius-x35: 20px;
+    --border-radius-x4:  24px;
+    --border-radius-x45: 28px;
+    --border-radius-x5:  32px;
+    --border-radius-x55: 36px;
+    --border-radius-x6:  40px;
+
+    --margin-x1:  4px;
+    --margin-x15: 6px;
+    --margin-x2:  8px;
+    --margin-x25: 12px;
+    --margin-x3:  16px;
+    --margin-x35: 20px;
+    --margin-x4:  24px;
+    --margin-x45: 28px;
+    --margin-x5:  32px;
+    --margin-x55: 36px;
+    --margin-x6:  40px;
+    
+    --padding-x1:  4px;
+    --padding-x15: 6px;
+    --padding-x2:  8px;
+    --padding-x25: 12px;
+    --padding-x3:  16px;
+    --padding-x35: 20px;
+    --padding-x4:  24px;
+    --padding-x45: 28px;
+    --padding-x5:  32px;
+    --padding-x55: 35px;
+    --padding-x6:  40px;
+
+    --a-icon-size-x1:  4px;
+    --a-icon-size-x15: 6px;
+    --a-icon-size-x2:  8px;
+    --a-icon-size-x25: 12px;
+    --a-icon-size-x3:  16px;
+    --a-icon-size-x35: 20px;
+    --a-icon-size-x4:  24px;
+    --a-icon-size-x45: 28px;
+    --a-icon-size-x5:  32px;
+    --a-icon-size-x55: 36px;
+    --a-icon-size-x6:  40px; 
+
+    --transition-fast-smooth: 0.25s ease-in-out;
+    --transition-medium-smooth: 0.5s ease-in-out;
+    --transition-slow-smooth: 1s ease-in-out;
+}
